@@ -1,11 +1,3 @@
-- name: Set output
-run: echo "{name}={value}" >> $GITHUB_OUTPUT
-
-# Ignore all files starting with "z"
-z*
-
-# User-specific files - Ignore all files ending in ".env"
 *.env
-
-# Root config folder - Ignore this directory at the root due to leading slash
+z*
 /artifacts
